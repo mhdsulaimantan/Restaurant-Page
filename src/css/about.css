@@ -1,0 +1,43 @@
+.about-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/about/forest.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paper-container {
+    position: relative;
+    top: 3rem;
+    width: 30%;
+    height: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Rubik Marker Hatch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 1rem;
+    background-image: url('../img/about/paper.jpg');
+}
+
+.paper-container:hover {
+    box-shadow: 4px 4px 5px green;
+}
+
+.paper-container .header {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.paper-container .disc {
+    font-size: 1.2rem;
+    color: rgb(88, 45, 45);
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Rubik Marker Hatch';
+    src: url('../fonts/RubikMarkerHatch-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SpecialElite';
+    src: url('../fonts/SpecialElite-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ShadowIntoLight';
+    src: url('../fonts/ShadowsIntoLight-Regular.ttf');
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: #7abb25c1; 
+    font-family: 'Rubik Marker Hatch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    width: 8rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-right: white solid 1px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+nav ul li.selected, nav ul li:hover{
+    background-color: rgba(0, 255, 0, 0.5);
+}

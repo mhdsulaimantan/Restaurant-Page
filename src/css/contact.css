@@ -1,0 +1,30 @@
+.contact-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/contact/phone-in-forest.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-info {
+    position: relative;
+    left: 20rem;
+    width: 25rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'ShadowIntoLight', Arial, Helvetica, sans-serif;
+    background-color: rgb(88, 45, 45, 0.7);;
+    border: 2px solid rgb(88, 45, 45);;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.contact-info:hover {
+    box-shadow: 2px 2px 5px green;
+}

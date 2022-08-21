@@ -1,0 +1,63 @@
+.menu-container, .card-container, .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'ShadowIntoLight', Arial, Helvetica, sans-serif;
+}
+
+.menu-container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url('../img/menu/vegetables.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container  {
+    position: relative;
+    top: 8rem;
+    width: 50rem;
+    background-color: #7abb25c1;
+    border-radius: 2rem;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+
+.header {
+    font-size: 3rem;
+    color: white;
+}
+
+.card {
+    width: 20rem;
+    border-radius: 2rem;
+    border: 1px solid green;
+    box-shadow: 2px 2px 5px green;
+    background-color: wheat;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: black;
+}
+
+.card img {
+    border-radius: 2rem;
+}
+
+.card .dish-name, .card .dish-ing {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card .dish-name, .card .dish-price {
+    font-weight: bold;
+}
+
+.card .dish-price{
+    font-size: 2rem;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px red;
+}
