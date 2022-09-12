@@ -6,7 +6,7 @@ export const contactElements = (() => {
 
     let contactInfo = document.createElement('div');
     contactInfo.classList.add('contact-info');
-    contactInfo.textContent = `Your can reach us anytime by:
+    contactInfo.textContent = `You can reach us anytime by:
     Email: contact@greenland.com
     Phone: 555 - 5555555.
     `
